@@ -36,7 +36,7 @@ def generate_lor(name, start_date, end_date):
     # Center and style "To Whom It May Concern"
     c.setFont("Helvetica-Bold", 16)
     c.setFillColor(colors.blue)
-    c.drawCentredString(width / 2, height - 200, "To Whom It May Concern")
+    c.drawCentredString(width / 2, height - 200, "Internship Offer Letter")
     
     # Reset font color to black for the rest of the text
     c.setFillColor(colors.black)
@@ -44,18 +44,18 @@ def generate_lor(name, start_date, end_date):
     # Add letter content
     c.setFont("Helvetica", 12)
     content_y_start = height - 240  # Start drawing text below the salutation
-    c.drawString(0.75 * inch, content_y_start, f"It gives me great pleasure to write this letter of recommendation for {name},")
-    c.drawString(0.75 * inch, content_y_start - 20, f"I have worked side-by-side with {name} from {start_date.strftime('%d-%m-%Y')} to {end_date.strftime('%d-%m-%Y')} in the")
-    c.drawString(0.75 * inch, content_y_start - 40, "financial analysis & equity research department at PredictRAM. During tenure,")
-    c.drawString(0.75 * inch, content_y_start - 60, f"{name} served as an Equity Research (intern) and was a direct report to me.")
-    c.drawString(0.75 * inch, content_y_start - 80, f"As a direct report, {name} was a successful, easy-to-manage associate, and always gave")
-    c.drawString(0.75 * inch, content_y_start - 100, "that extra effort to meet deadlines. Demonstrated superior analytical capabilities")
-    c.drawString(0.75 * inch, content_y_start - 120, "and soon became an expert in financial analysis & equity research.")
-    c.drawString(0.75 * inch, content_y_start - 160, f"During the internship with our organization, I have experienced an individual who shows up")
+    c.drawString(0.75 * inch, content_y_start, f"Dear {name},")
+    c.drawString(0.75 * inch, content_y_start - 20, f"I am delighted & excited to welcome you to PredictRAM for Financial Analyst Internship Program")
+    c.drawString(0.75 * inch, content_y_start - 40, "At PredictRAM, we believe that our team is our biggest strength, and we take pride in hiring only")
+    c.drawString(0.75 * inch, content_y_start - 60, f"the best and the brightest. We are confident that you would play a significant role in the overall ")
+    c.drawString(0.75 * inch, content_y_start - 80, f"success of the venture and wish you the most enjoyable, learning-packed, and truly meaningful ")
+    c.drawString(0.75 * inch, content_y_start - 100, "internship experience with PredictRAM.")
+    c.drawString(0.75 * inch, content_y_start - 120, "Your appointment will be governed by the terms and conditions presented in ")
+    c.drawString(0.75 * inch, content_y_start - 160, f"https://predictram.gitbook.io/docs/internship-terms")
     c.drawString(0.75 * inch, content_y_start - 180, "earlier than asked, works hard, and carries themselves in a polite, respectable manner.")
-    c.drawString(0.75 * inch, content_y_start - 200, f"Intern is exceptionally brilliant, has consistently shown strong leadership qualities.")
-    c.drawString(0.75 * inch, content_y_start - 220, f"Intern is indeed a talented and dedicated student.")
-    c.drawString(0.75 * inch, content_y_start - 240, f"I would recommend {name} for the Financial Analyst role.")
+    c.drawString(0.75 * inch, content_y_start - 200, f"We look forward to you joining us. Please do not hesitate to call us for any information you may need. ")
+    c.drawString(0.75 * inch, content_y_start - 220, f"Also, please sign the duplicate of this offer as your acceptance and forward the same to us.")
+    c.drawString(0.75 * inch, content_y_start - 240, f"Congratulations! {name}")
     c.drawString(0.75 * inch, content_y_start - 260, "I wish all the luck for academic success.")
 
     c.drawString(0.75 * inch, content_y_start - 280, f"Duration of Internship from {start_date.strftime('%d-%m-%Y')} to {end_date.strftime('%d-%m-%Y')} .")    
