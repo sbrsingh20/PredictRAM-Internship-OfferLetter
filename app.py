@@ -51,14 +51,14 @@ def generate_lor(name, start_date, end_date):
     c.drawString(0.75 * inch, content_y_start - 100, f"success of the venture and wish you the most enjoyable, learning-packed, and truly meaningful ")
     c.drawString(0.75 * inch, content_y_start - 120, "internship experience with PredictRAM.")
     c.drawString(0.75 * inch, content_y_start - 160, f"Your appointment will be governed by the terms and conditions presented in")
-    c.drawString(0.75 * inch, content_y_start - 180, "https://predictram.gitbook.io/docs/internship-terms")
+    c.drawString(0.75 * inch, content_y_start - 180, "https://predictram.gitbook.io/docs/internship-terms. Please read it.")
     c.drawString(0.75 * inch, content_y_start - 220, f"We look forward to you joining us. Please do not hesitate to call us for any information. ")
     c.drawString(0.75 * inch, content_y_start - 240, f"Also, please sign the duplicate of this offer as your acceptance and forward the same to us.")
-    c.drawString(0.75 * inch, content_y_start - 260, f"Congratulations! {name}")
-    c.drawString(0.75 * inch, content_y_start - 280, "")
+    c.drawString(0.75 * inch, content_y_start - 280, f"Congratulations! {name}")
+    c.drawString(0.75 * inch, content_y_start - 300, "")
 
-    c.drawString(0.75 * inch, content_y_start - 280, f"Duration of Internship from {start_date.strftime('%d-%m-%Y')} to {end_date.strftime('%d-%m-%Y')} .")    
-    c.drawString(0.75 * inch, content_y_start - 300, "Sincerely,")
+    c.drawString(0.75 * inch, content_y_start - 320, f"Duration of Internship from {start_date.strftime('%d-%m-%Y')} to {end_date.strftime('%d-%m-%Y')} .")    
+    c.drawString(0.75 * inch, content_y_start - 340, "Sincerely,")
     
     # Footer with signature and address
     y = content_y_start - 400
