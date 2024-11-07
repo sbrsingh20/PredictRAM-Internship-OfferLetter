@@ -85,7 +85,7 @@ with st.form("lor_form"):
     name = st.text_input("Candidate Name")
     start_date = st.date_input("Start Date")
     end_date = st.date_input("End Date")
-    submit_button = st.form_submit_button(label="Generate LOR")
+    submit_button = st.form_submit_button(label="Generate Offer letter")
 
 # Check if the candidate is in the list
 if submit_button:
