@@ -62,7 +62,7 @@ def generate_lor(name, start_date, end_date):
     
     # Footer with signature and address
     y = content_y_start - 405
-    c.drawImage('SignWithLogo.png', 0.75 * inch, y, 210, 100)  # Replace with actual path
+    c.drawImage('SignWithLogo.png', 0.75 * inch, y, 190, 80)  # Replace with actual path
     c.drawString(0.75 * inch, y - 50, "Subir Singh")
     c.drawString(0.75 * inch, y - 65, "Director- PredictRAM(Params Data provider Pvt Ltd")
     c.drawString(0.75 * inch, y - 80, "Office: B1/638 A, 2nd & 3rd Floor, Janakpuri New Delhi 110058")
