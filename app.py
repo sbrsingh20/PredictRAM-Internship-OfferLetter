@@ -20,9 +20,9 @@ def generate_lor(name, start_date, end_date):
     width, height = letter
     
     # Add border
-    c.setStrokeColor(colors.navy)
+    c.setStrokeColor(colors.white)
     c.setLineWidth(0)
-    c.rect(0.0 * inch, 0.0 * inch, width - inch, height - inch)
+    c.rect(0.5 * inch, 0.5 * inch, width - inch, height - inch)
 
     # Add logo image (Replace 'image.png' with the actual path to your logo)
     logo_path = 'image.png'  # Path to your logo
