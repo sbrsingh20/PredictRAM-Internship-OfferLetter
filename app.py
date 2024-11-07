@@ -76,10 +76,10 @@ def generate_lor(name, start_date, end_date):
 
  # Add a logo to the top header
 st.image("png_2.3-removebg-preview.png", width=400)  # Replace "your_logo.png" with the path to your logo
-st.title("Letter of Recommendation Generator")
+st.title("Internship Offer Letter Generator")
 
 # Input Form
-st.header("Enter LOR Details")
+st.header("Enter Start and End Details")
 
 with st.form("lor_form"):
     name = st.text_input("Candidate Name")
