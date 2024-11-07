@@ -21,7 +21,7 @@ def generate_lor(name, start_date, end_date):
     
     # Add border
     c.setStrokeColor(colors.navy)
-    c.setLineWidth(2)
+    c.setLineWidth(1)
     c.rect(0.5 * inch, 0.5 * inch, width - inch, height - inch)
 
     # Add logo image (Replace 'image.png' with the actual path to your logo)
