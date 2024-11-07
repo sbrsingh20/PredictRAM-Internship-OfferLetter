@@ -57,11 +57,11 @@ def generate_lor(name, start_date, end_date):
     c.drawString(0.75 * inch, content_y_start - 280, f"Congratulations! {name}")
     c.drawString(0.75 * inch, content_y_start - 300, "")
 
-    c.drawString(0.75 * inch, content_y_start - 320, f"Duration of Internship from {start_date.strftime('%d-%m-%Y')} to {end_date.strftime('%d-%m-%Y')} .")    
+    c.drawString(0.75 * inch, content_y_start - 320, f"Duration of Internship:{start_date.strftime('%d-%m-%Y')} to {end_date.strftime('%d-%m-%Y')} .")    
     c.drawString(0.75 * inch, content_y_start - 340, "Sincerely,")
     
     # Footer with signature and address
-    y = content_y_start - 400
+    y = content_y_start - 410
     c.drawImage('SignWithLogo.png', 0.75 * inch, y, 190, 80)  # Replace with actual path
     c.drawString(0.75 * inch, y - 50, "Subir Singh")
     c.drawString(0.75 * inch, y - 65, "Director- PredictRAM(Params Data provider Pvt Ltd")
