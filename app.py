@@ -35,7 +35,7 @@ def generate_lor(name, start_date, end_date):
 
     # Center and style "To Whom It May Concern"
     c.setFont("Helvetica-Bold", 16)
-    c.setFillColor(colors.blue)
+    c.setFillColor(colors.darkblue)
     c.drawCentredString(width / 2, height - 200, "Internship Offer Letter")
     
     # Reset font color to black for the rest of the text
@@ -61,8 +61,8 @@ def generate_lor(name, start_date, end_date):
     c.drawString(0.75 * inch, content_y_start - 340, "Sincerely,")
     
     # Footer with signature and address
-    y = content_y_start - 410
-    c.drawImage('SignWithLogo.png', 0.75 * inch, y, 190, 80)  # Replace with actual path
+    y = content_y_start - 405
+    c.drawImage('SignWithLogo.png', 0.75 * inch, y, 210, 100)  # Replace with actual path
     c.drawString(0.75 * inch, y - 50, "Subir Singh")
     c.drawString(0.75 * inch, y - 65, "Director- PredictRAM(Params Data provider Pvt Ltd")
     c.drawString(0.75 * inch, y - 80, "Office: B1/638 A, 2nd & 3rd Floor, Janakpuri New Delhi 110058")
