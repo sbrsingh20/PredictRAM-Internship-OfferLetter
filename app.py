@@ -45,7 +45,7 @@ def generate_lor(name, start_date, end_date):
     c.setFont("Helvetica", 12)
     content_y_start = height - 240  # Start drawing text below the salutation
     c.drawString(0.75 * inch, content_y_start, f"Dear {name},")
-    c.drawString(0.75 * inch, content_y_start - 40, f"I am delighted & excited to welcome you to PredictRAM for Financial Analyst Internship")
+    c.drawString(0.75 * inch, content_y_start - 40, f"I am delighted & excited to welcome you to PredictRAM for Financial Analyst Internship.")
     c.drawString(0.75 * inch, content_y_start - 60, "At PredictRAM, we believe that our team is our biggest strength, and we take pride in hiring only")
     c.drawString(0.75 * inch, content_y_start - 80, f"the best and the brightest. We are confident that you would play a significant role in the overall ")
     c.drawString(0.75 * inch, content_y_start - 100, f"success of the venture and wish you the most enjoyable, learning-packed, and truly meaningful ")
@@ -54,7 +54,7 @@ def generate_lor(name, start_date, end_date):
     c.drawString(0.75 * inch, content_y_start - 180, "https://predictram.gitbook.io/docs/internship-terms. Please read it.")
     c.drawString(0.75 * inch, content_y_start - 220, f"We look forward to you joining us. Please do not hesitate to call us for any information. ")
     c.drawString(0.75 * inch, content_y_start - 240, f"Also, please sign the duplicate of this offer as your acceptance and forward the same to us.")
-    c.drawString(0.75 * inch, content_y_start - 280, f"Congratulations! {name}")
+    c.drawString(0.75 * inch, content_y_start - 280, f"Congratulations {name}")
     c.drawString(0.75 * inch, content_y_start - 300, "")
 
     c.drawString(0.75 * inch, content_y_start - 320, f"Duration of Internship : {start_date.strftime('%d-%m-%Y')} to {end_date.strftime('%d-%m-%Y')} .")    
